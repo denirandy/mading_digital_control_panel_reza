@@ -1,0 +1,209 @@
+@import url('https://fonts.cdnfonts.com/css/cardiff');
+                
+
+body{
+    width: 1912px;
+    height: 932;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    gap: 10px;
+}
+
+.sideBar-container {
+    width: 72px;
+    height: 932px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+.icon {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    mix-blend-mode: lighten;
+}
+
+.layar-merah {
+    background: #FF5353;
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    position: absolute;
+    transition-duration: 300ms;
+}
+
+.layar-abuabu {
+    background: #B0B0B0;
+    width: 65px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 8px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.icon-ict {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 266px;
+}
+
+
+.tombol-upload{
+    width: 400px;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 70px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.tombol-merah{
+    width: 28px;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: #FF5353;
+}
+
+.icon-upload {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+}
+
+.button{
+    width: 320px;
+    height: 41px;
+    padding: 26px;
+    margin-left: 60px;
+    position: absolute;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Cardiff', sans-serif;;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.tombol-Remove{
+    width: 408px;
+    height: 88px;
+    flex-shrink: 0;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 190px;
+}
+
+.icon-remove{
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+}
+
+.tampilan-video-container{
+    width: 610px;
+    height: 60rem;
+    flex-shrink: 0;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+    position: absolute;
+    margin-left: 120rem;
+    margin-top: 100px;
+}
+
+.tampilan-video{
+    width: 498px;
+    height: 248px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-top: 60px;
+    margin-left: 56px;
+    position: absolute;
+}
+
+.tampilan-list-container{
+    width: 536px;
+    height: 500px;
+    flex-shrink: 0;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30rem;
+    position: absolute;
+    margin-left: 122.5rem;
+   
+}
+
+.tampilan-list-merah{
+    width: 33.5rem;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: #FF5353;
+    margin-top: 2.5px;
+    position: absolute;
+}
+
+.text{
+    width: 524px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Cardiff', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 11.5rem;
+    display: flex;
+    margin-top: 30px;
+}
+
+.file{
+    width: 488px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: 'Cardiff', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 180px;
+    display: flex;
+    margin-top: 330px;
+}
+
+.content{
+    margin-top: 100px;
+    color: #000;
+    font-family:'Cardiff', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%; 
+}

@@ -1,0 +1,124 @@
+body {
+    width: 1840px;
+    height: 932px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    gap: 10px;
+}
+
+.body-container {
+    width: 1840px;
+    height: 932px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-container {
+    width: 1800px;
+    height: 46px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.content-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1800px;
+    height: 672px;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 30px 0;
+    margin: 5px;
+}
+
+.content-preview>div>h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.content-preview>div {
+    width: 1760px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input-content {
+    width: 1438px;
+    height: 58px;
+    flex-shrink: 0;
+    border: 0.5px solid #000;
+    background: #FFF;
+}
+
+.btn-tambah {
+    width: 349.916px;
+    height: 58.319px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF5353;
+}
+
+
+.sideBar-container {
+    width: 72px;
+    height: 932px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+.icon-ict {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 266px;
+}
+
+.icon {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    mix-blend-mode: lighten;
+}
+
+.layar-merah {
+    background: #FF5353;
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    position: absolute;
+    transition-duration: 300ms;
+}
+
+.layar-abuabu {
+    background: #B0B0B0;
+    width: 65px;
+    height: 288px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 8px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
